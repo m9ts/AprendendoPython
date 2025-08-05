@@ -63,22 +63,22 @@ Desta forma, não é possível modificar os dados contidos no arquivo.
 2) O caminho em relação ao diretório atual (nomes txt do arquivo que se deseja abrir).
 
 # Modo de abertura de arquivos em Python:
-#
+
 # r   -> Abre o arquivo somente para leitura.
-#        O arquivo deve já existir.
-#
+        O arquivo deve já existir.
+
 # r+  -> Abre o arquivo para leitura e escrita.
-#        O arquivo deve já existir.
-#        A escrita começa na primeira linha e sobrescreve o conteúdo existente.
-#
+        O arquivo deve já existir.
+        A escrita começa na primeira linha e sobrescreve o conteúdo existente.
+
 # w   -> Abre o arquivo somente para escrita, no início do arquivo.
-#        Apaga o conteúdo existente. Cria o arquivo se não existir.
-#
+        Apaga o conteúdo existente. Cria o arquivo se não existir.
+
 # w+  -> Abre o arquivo para escrita e leitura.
-#        Apaga o conteúdo existente. Cria o arquivo se não existir.
-#
+        Apaga o conteúdo existente. Cria o arquivo se não existir.
+
 # a   -> Abre o arquivo para escrita no final do arquivo.
-#        Não apaga o conteúdo existente. Cria o arquivo se não existir.
-#
+        Não apaga o conteúdo existente. Cria o arquivo se não existir.
+
 # a+  -> Abre o arquivo para escrita no final do arquivo e leitura.
-#        Não apaga o conteúdo existente. Cria o arquivo se não existir.
+        Não apaga o conteúdo existente. Cria o arquivo se não existir.
